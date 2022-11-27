@@ -5,13 +5,16 @@
 
 ### Как использовать
 Скачиваете файл scroll_to_form.js или scroll_to_form.min.js, кладете в папку с лендингом и подключаете скрипт в конце страницы
-> ...
-> \<script src="scroll_to_form.js">\</script>
-> \</body>
-> \</html>
+```
+...
+<script src="scroll_to_form.js"></script>
+</body>
+</html>
+```
 
 Если необходимо настроить иное место до которого будет прокручиваться страница, то к тегу **\<script>** требуется добавить атрибут *form_id* в котором указать id элемента.
-
-> \<div id="**scroll-target**">До сюда нужно прокрутить\</div>
-> ...
-> \<script src="scroll_to_form.js" form_id="**scroll-target**">\</script>
+```
+<div id="scroll-target">До сюда нужно прокрутить</div>
+...
+<script src="scroll_to_form.js" form_id="scroll-target"></script>
+```
